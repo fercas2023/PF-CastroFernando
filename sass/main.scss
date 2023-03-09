@@ -1,5 +1,11 @@
-@use "./index.scss";
-@use "./productos.scss";
-@use "./locales.scss";
-@use "./preguntasfrecuentes.scss";
-@use "./contacto.scss";
+@use "./_index.scss";
+@use "./_productos.scss";
+@use "./_locales.scss";
+@use "./_preguntasfrecuentes.scss";
+@use "./_contacto.scss";
+
+*{
+    padding:0;
+    margin: 0;
+    border: 0;
+}
