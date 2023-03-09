@@ -73,14 +73,9 @@
     color: #BBBB2A;
 
    }
+}
    
 
-
-
-
-
-
-  }
 
   @media screen and (min-width: 481px){
 
@@ -116,11 +111,33 @@
            font-family: roboto;
 
        }
+
+       .title1 {
+        display: flex;
+        font-family: roboto;
+        font-size: 100px;
+        cursor: pointer;
+      }
+      
+      .title1:hover {
+        background-color: white;
+        border: 5px solid black;
+        border-radius: 20px;
+      }
        footer{
         grid-area: footer;
         background-color: #DEBDF0;
 
 
+    }
+    .footer1{
+        display: flex;
+        justify-content: space-around;
+        background-color: #DEBDF0;
+        padding-bottom: 20px;
+    
+    
+    
     }
 }
 
@@ -131,12 +148,3 @@
     background-color:ghostwhite;
 }
 
-.footer1{
-    display: flex;
-    justify-content: space-around;
-    background-color: #DEBDF0;
-    padding-bottom: 20px;
-
-
-
-}
