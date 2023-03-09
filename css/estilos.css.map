@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/_index.scss"],"names":[],"mappings":"AAAA;EACI","file":"estilos.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/_index.scss","../sass/main.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACGJ;EACI;EACA;EACA","file":"estilos.css"}
