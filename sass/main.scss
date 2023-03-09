@@ -1,3 +1,5 @@
-div{
-    background-color: aquamarine;
-}
+@use "./index.scss";
+@use "./productos.scss";
+@use "./locales.scss";
+@use "./preguntasfrecuentes.scss";
+@use "./contacto.scss";
