@@ -3,47 +3,7 @@
     
     }
 
-    .h1{
-        display: flex;
-        background-color: #DEBDF0;
-        font-size: 50px;
-        font-family: roboto;
-        align-items: center;
-    }
-
-    .title1{
-        display: flex;
-        font-family: roboto;
-        font-size: 100px;
-        cursor: pointer;
-        
-    }
-
-    .title1:hover{
-        background-color: white;
-        border: 5px solid black;
-        border-radius: 20px;
-    }
-
-    ul{
-        display: flex;
-        justify-content: space-around;
-        font-size: 35px;
-        margin-top: 20px;
-        height: 100%;
-        font-family: roboto;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    li{
-        list-style: none;
-    }
-
-    .envios{
+   .envios{
         text-align: center;
         font-size: 25px;
         font-family: roboto;

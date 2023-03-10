@@ -2,45 +2,6 @@
   justify-content: center;
 }
 
-.h1 {
-  display: flex;
-  background-color: #DEBDF0;
-  font-size: 50px;
-  font-family: roboto;
-  align-items: center;
-}
-
-.title1 {
-  display: flex;
-  font-family: roboto;
-  font-size: 100px;
-  cursor: pointer;
-}
-
-.title1:hover {
-  background-color: white;
-  border: 5px solid black;
-  border-radius: 20px;
-}
-
-ul {
-  display: flex;
-  justify-content: space-around;
-  font-size: 35px;
-  margin-top: 20px;
-  height: 100%;
-  font-family: roboto;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-li {
-  list-style: none;
-}
-
 .envios {
   text-align: center;
   font-size: 25px;
@@ -135,7 +96,6 @@ hr {
     min-height: 100vh;
   }
   h1 {
-    font-size: 10px;
     background-color: #DEBDF0;
     font-family: roboto;
     text-align: center;
@@ -157,6 +117,14 @@ hr {
   }
   .btn-primary:active {
     background-color: #DEBDF0;
+  }
+  .banner {
+    width: 410px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: block;
   }
   .envios {
     text-align: center;
@@ -188,23 +156,44 @@ hr {
     grid-area: footer;
     background-color: #DEBDF0;
   }
+  .footer1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #DEBDF0;
+    padding-bottom: 20px;
+  }
+  .h1 {
+    display: flex;
+    background-color: #DEBDF0;
+    font-size: 50px;
+    font-family: roboto;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    margin-top: 20px;
+    height: 100%;
+    font-family: roboto;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
   .title1 {
     display: flex;
     font-family: roboto;
     font-size: 100px;
     cursor: pointer;
   }
-  
   .title1:hover {
     background-color: white;
     border: 5px solid black;
     border-radius: 20px;
-  }
-  .footer1 {
-    display: flex;
-    justify-content: space-around;
-    background-color: #DEBDF0;
-    padding-bottom: 20px;
   }
 }
 main {
