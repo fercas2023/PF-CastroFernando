@@ -1,46 +1,3 @@
-
-
-
-
-
-
-.btn-group {
-  display: flex;
-  justify-content: space-around;
-}
-
-.btn-primary {
-  background-color: #DEBDF0;
-  color: black;
-  border: none;
-}
-
-.btn-primary:active {
-  background-color: #DEBDF0;
-}
-
-
-
-.envios {
-  text-align: center;
-  font-size: 10px;
-  font-family: roboto;
-  color: #BBBB2A;
-}
-
-.section1 {
-  display: block;
-  margin: auto;
-  border-radius: 20px;
-}
-
-.section2 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 10px;
-  font-family: roboto;
-}
-
 hr {
   border: 1px solid black;
   margin-top: 10px;
@@ -139,6 +96,7 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 480px) {
