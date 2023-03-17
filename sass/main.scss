@@ -182,7 +182,7 @@
 
   }
 
-  section {
+  .section4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,6 +262,64 @@
         border: 5px solid black;
         border-radius: 20px;
       }
+
+      .form_register{
+        width: 400px;
+        background-color: #DEBDF0;
+        padding: 30px;
+        margin: auto;
+        margin-top:100px;
+        border-radius: 4px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+    }
+    
+    .form_register h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    .controls{
+        width: 100%;
+        background-color: ghostwhite;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid black;
+        font-family:'calibri';
+        font-size: 18px;
+    }
+    
+    .form_register p{
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;    
+    
+    }
+    
+    .form_register a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .form_register a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .form_register .botons{
+        width: 100%;
+        background:ghostwhite;
+        border: none;
+        padding: 12px;
+        color: black;
+        margin: 16px 0;
+        font-size: 16px;    
+    
+    
+    }
       
 }
 
