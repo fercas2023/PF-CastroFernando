@@ -225,7 +225,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
   article img {
     max-width: 100%;
@@ -233,19 +233,19 @@ body {
   }
   .envios {
     text-align: center;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-family: roboto;
     color: #BBBB2A;
   }
   .section2 {
     display: block;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 1.25rem;
   }
   .section3 {
     text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
     font-family: roboto;
   }
   .footer1 {
