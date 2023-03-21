@@ -1,15 +1,18 @@
+@charset "UTF-8";
 /*----------------------- css acordeon / preguntas frecuentes --------------- */
 @import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
 .rotating-image {
-  animation: spin 4s ease-in-out infinite;
+  position: relative; /* asegurarse de que la posición sea relativa */
+  transform: translateX(100%);
+  animation: aparecer 4s ease-in-out forwards;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
+@keyframes aparecer {
+  from {
+    transform: translateX(100%);
   }
-  100% {
-    transform: rotate(360deg);
+  to {
+    transform: translateX(0);
   }
 }
 hr {
