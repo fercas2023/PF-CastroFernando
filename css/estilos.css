@@ -1,20 +1,5 @@
-@charset "UTF-8";
 /*----------------------- css acordeon / preguntas frecuentes --------------- */
 @import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
-.rotating-image {
-  position: relative; /* asegurarse de que la posición sea relativa */
-  transform: translateX(100%);
-  animation: aparecer 4s ease-in-out forwards;
-}
-
-@keyframes aparecer {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
 hr {
   border: 1px solid black;
   margin-top: 10px;
@@ -125,7 +110,6 @@ h2:hover {
 }
 body {
   background-color: ghostwhite;
-  overflow-x: hidden;
 }
 
 .form_register {
@@ -210,10 +194,9 @@ body {
   }
   body {
     min-height: 100vh;
-    overflow-x: hidden;
   }
   h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #DEBDF0;
     font-family: roboto;
     text-align: center;
