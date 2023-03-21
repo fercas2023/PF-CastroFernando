@@ -16,7 +16,7 @@
 //---------------------MOBILE--------------------------//
 @media screen and (max-width: 480px) {
     #grid_container {
-      height: 20vh;
+      height: auto;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-areas: "header" "main" "footer";
@@ -33,7 +33,7 @@
       background-color: #DEBDF0;
     }
     body {
-      min-height: 100vh;
+      min-height: 100%;
     }
     h1{
       font-size: 1.25rem;
