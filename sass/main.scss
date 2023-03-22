@@ -13,7 +13,7 @@
 
   }
 //-------------mobile 1--------------------//
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 414px) {
   #grid_container {
     height: auto;
     display: grid;
@@ -36,7 +36,7 @@
     margin-bottom: 0;
   }
   h1{
-    font-size: 1rem;
+    font-size: 1.25rem;
     background-color: #DEBDF0;
     font-family: roboto;
     text-align: center;
@@ -73,7 +73,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      margin-top: 0.425rem;
+      margin-top: 0.625rem;
     }
     article img {
       max-width: 100%;
@@ -81,7 +81,7 @@
     }
    .envios{
     text-align: center;
-    font-size: 0.425rem;
+    font-size: 0.625rem;
     font-family: roboto;
     color: #BBBB2A;
 
@@ -90,13 +90,13 @@
    .section2{
     display: block;
     margin: auto;
-    border-radius: 1rem;
+    border-radius: 1.25rem;
    }
 
    .section3{
     text-align: center;
-    margin-top: 1rem;
-    font-size: 1rem;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
     font-family: roboto;
    }
 
@@ -109,6 +109,8 @@
   font-family: roboto;
 }
 }
+  
+
 
 
 
