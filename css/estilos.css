@@ -1,5 +1,22 @@
 /*----------------------- css acordeon / preguntas frecuentes --------------- */
 @import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+.animacion {
+  animation-name: desaparecer-aparecer;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes desaparecer-aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 hr {
   border: 1px solid black;
   margin-top: 10px;
@@ -43,6 +60,24 @@ hr {
   border-radius: 10px solid black;
 }
 
+.animacion1 {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 * {
   padding: 0;
   margin: 0;

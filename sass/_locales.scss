@@ -5,5 +5,24 @@
 
 .mapas{
     border-radius: 10px solid black;
+ }
 
-   }
+ .animacion1 {
+    opacity: 0;
+    transform: translateY(-50px);
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
